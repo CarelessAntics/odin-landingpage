@@ -1,0 +1,157 @@
+
+
+html {
+    font-family: Roboto, 'sans-serif';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 7px;
+    padding: 8px 24px;
+    border: 0;
+}
+
+.header, 
+.hero-container {
+    display: flex;
+    background-color: #1F2937;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.header-left{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-right {
+
+}
+
+.hero-container {
+    justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.hero-left,
+.hero-right {
+    flex: 1;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.hero-sub {
+    color: #E5E7EB;
+}
+
+.random-info {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.boxes-container {
+    display:flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.item {
+    width: 150px;
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.box {
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    flex: 0 0 auto;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 70px 20%;
+}
+
+.quote-credit {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: right;
+    margin: 16px 0;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 40%;
+    margin: 50px auto;
+    display: flex;
+    padding: 16px 10%;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.call-to-action p {
+    flex: 1;
+}
+
+.call-to-action button {
+    border: 2px solid #fff;
+    flex: 0 0 1;
+    white-space: nowrap;
+}
